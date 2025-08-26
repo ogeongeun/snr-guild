@@ -1,6 +1,8 @@
-cd "C:\Users\sgala\snr-guide"
-git add .
-git commit -m "작업 내용"
-git push origin main
+cd C:\Users\sgala\snr-guild
+git status                # 변경 확인
+git add -A               # 변경 모두 스테이징
+git commit -m "Fix: ...." # 메시지 작성
+git push origin main      # GitHub snr-guild 리포로 푸시
+
 git pull origin main --rebase
 https://app.netlify.com/teams/ogeongeun/projects

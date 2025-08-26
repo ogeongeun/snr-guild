@@ -2,80 +2,16 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   const features = [
-    {
-      title: '공성전',
-      path: '/siege',
-      description: '요일별 공성전 영웅, 스킬순서',
-      emoji: '🏰'
-    },
+    
        {
       title: '길드전',
       path: '/guild-defense',
       description: '길드전 방어팀 공격팀 추천',
       emoji: '🛡️'
-    },
-     {
-  title: '총력전',
-  path: '/grand-battle',
-  description: '총력전 전용 팀 구성 및 공략 정보',
-  emoji: '⚔️'
-},
-
-    {
-  title: '무한의 탑',
-  path: '/infinity-tower',
-  description: '층별 조건에 맞춘 공략 덱 정보',
-  emoji: '🏯'
-},{
-  title: '시련의 탑',
-  path: '/trial-tower',
-  description: '층별 조건에 맞춘 공략 덱 정보',
-  emoji: '💀'
-},
-
-     {
-  title: '모험',
-  path: '/adventure',
-  description: '모험 콘텐츠용 클리어 덱',
-  emoji: '🗺️'
-}, {
-  title: '장비 추천',
-  path: '/equipment',
-  description: '영웅들의 장비 추천',
-  emoji: '🛠'
-},
-{
-  title: '장신구 세공법',
-  path: '/accessory-custom',
-  description: '무탑/결장/보스/쫄작용 추천 조합',
-  emoji: '💍'
-},
-
-    {
-      title: '레이드',
-      path: '/raid-guide',
-      description: '레이드 영웅장비 및 추천 스킬순서',
-      emoji: '🐉'
-    },
-    {
-      title: '성장던전',
-      path: '/essential-heroes',
-      description: '요일별 성장던전 클리어덱',
-      emoji: '⭐'
-    },
-    {
-      title: '스킬 강화 순서',
-      path: '/skill-order',
-      description: '영웅별 스킬 강화 우선순위 추천',
-      emoji: '💡'
-    },
-    {
-      title: '쫄작 효율 비교',
-      path: '/farming',
-      description: '경험치/루비 손익 기준 효율 계산',
-      emoji: '🔍'
-    },
+    }
     
+
+   
     
     
     
